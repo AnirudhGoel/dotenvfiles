@@ -1,0 +1,31 @@
+alias mycow='fortune | cowsay'
+
+alias v="vim"
+alias df='df -h'
+alias du='du -hs'
+alias fo='xdg-open'
+alias myip="curl ipinfo.io/ip"
+alias pyclean='find . -name \*.pyc -type f -ls -delete'
+alias pipgrep='pip freeze | grep -i '
+alias psgrep='ps aux | grep '
+alias sshconfig="v ~/.ssh/config"
+alias gitconfig="v ~/.gitconfig"
+alias incognito='export HISTFILE=/dev/null'
+alias sl='streamlink'
+alias sv='source venv/bin/activate'
+alias cv='virtualenv venv -p $(pyenv which python)'
+
+# List directory contents
+alias ls='ls -G'        # Compact view, show colors
+alias la='ls -AF'       # Compact view, show hidden
+alias ll='ls -lhrt'
+alias l='ls -a'
+alias l1='ls -1'
+
+alias q="exit"
+
+alias gs="git status"
+alias gco="git checkout "
+
+# Shell History
+alias h='history'
